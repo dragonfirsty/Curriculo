@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
+
 const GlobalStyle = createGlobalStyle`
 *{
     margin:0;
@@ -14,6 +15,12 @@ const GlobalStyle = createGlobalStyle`
 body{
     color: var(--textcolor);
     background-color:	var(--background);
+    background-image: url("https://st2.depositphotos.com/1008191/5284/i/600/depositphotos_52847477-stock-photo-abstract-blue-background-vignette-black.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    
 }
 img{
     max-width: 100vw;
@@ -35,6 +42,13 @@ a,a:hover,a:focus,a:active {
 text-decoration:none;
 color: inherit;
 
+}
+a:hover{
+    text-decoration:underline;
+    color:black;
+}
+ul{
+    list-style: none;
 }
 button{
     cursor:pointer;
