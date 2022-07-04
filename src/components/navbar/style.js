@@ -8,9 +8,17 @@ export const Container = styled.div`
   margin-top: 10px;
   
   button{
-    background-color:gray;
+    background-color:black;
     color:white;
     border: none;
     border-radius:10px; 
+    min-width:40px;
+    width:20%;
+    max-width:100px;
+  }
+  button:hover{
+    background-color: gray;
+    color: red;
+
   }
 `;

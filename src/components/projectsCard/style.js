@@ -24,11 +24,18 @@ export const Container = styled.li`
     justify-content: space-evenly;
   }
   button {
-    background-color: gray;
-    color: white;
-    height: 40px;
-    border-radius: 10px;
+    background-color:black;
+    color:white;
     border: none;
+    border-radius:10px; 
+    min-width:40px;
+    width:20%;
+    max-width:100px;
+    height:40px;
+  }
+  button:hover{
+    color:red;
+
   }
   h4 {
     max-width: 100%;
