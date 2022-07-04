@@ -6,11 +6,10 @@ const Navbar = () => {
 
   return (
     <Container>
-      <button onClick={() => history.push("/")}>Sobre mim</button>
-      <button onClick={() => history.push("/certificates")}>
-        Certificados
-      </button>
-      <button onClick={() => history.push("/projects")}>Projetos</button>
+      <button onClick={() => history.push("/")}>Home</button>
+      <button onClick={() => history.push("/about")}>Sobre mim</button>
+      <button onClick={() => history.push("/certificates")}> Certificados</button>
+      <button onClick={() => history.push("/projects")}>Meus Projetos</button>
     </Container>
   );
 };
