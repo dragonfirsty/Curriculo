@@ -11,11 +11,12 @@ export const Container = styled.div`
     border-radius: 100%;
     margin: 0 auto;
   }
-  .teste {
+  .summary {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
+    padding-left:20px;
   }
 
   section h2 {

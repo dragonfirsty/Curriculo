@@ -10,21 +10,21 @@ const About = () => {
           <img src={Me} alt="foto de perfil" />
           <h2>Leonardo Moya Fernandes</h2>
         </section>
-        <div className="teste">
-          <div>
+        <ul className="summary">
+          <li>
             <h2>Competencias:</h2>
             <h3>HTML | JS | CSS | GIT | React | Redux | Beekeper | Node.Js</h3>
-          </div>
-          <div>
+          </li>
+          <li>
             <h2>Sobre mim:</h2>
             <h3>
               Estudante Desenvolvedor Full Stack na Kenzie Academy Brasil, Desde
-              pequeno sempre me indentifiquei com a area de tecnologia, apos meu
-              primeiro contato com a programação decidi que era isso que quero
-              para minha vida
+              pequeno sempre me indentifiquei com a area de tecnologia e Fascinado
+              pelas novas tecnologias da programação, Dito isso procuro sempre melhorar
+              dia a apos dia resolvendo problemas. 
             </h3>
-          </div>
-          <div>
+          </li>
+          <li>
             <h2>Contato:</h2>
             <ul>
               <li>
@@ -41,8 +41,8 @@ const About = () => {
                 <a href="mailto:leonardomoya03@gmail.com">email</a>
               </li>
             </ul>
-          </div>
-        </div>
+          </li>
+        </ul>
       </main>
     </Container>
   );
